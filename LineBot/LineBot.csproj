@@ -13,16 +13,4 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\..\poke_utils_bot\PokeUtils\Models\ContextManager.cs">
-      <Link>Models/ContextManager.cs</Link>
-    </Compile>
-    <Compile Include="..\..\poke_utils_bot\PokeUtils\Models\Functions\MetamonExpFunctionProvider.cs" />
-    <Compile Include="..\..\poke_utils_bot\PokeUtils\Models\IFunctionProvider.cs">
-      <Link>Models/IFunctionProvider.cs</Link>
-    </Compile>
-    <Compile Include="..\..\poke_utils_bot\PokeUtils\Models\MessageHandler.cs">
-      <Link>Models/MessageHandler.cs</Link>
-    </Compile>
-  </ItemGroup>
 </Project>
